@@ -1,8 +1,9 @@
-**![](data:image/png;base64...)LIF - Layout Interchange Format**
+![](assets/logo_vdma.png)
 
-# Definition of a format of track layouts for exchange between the integrator of the driverless transport vehicles and a (third-party) master control system.
+# LIF - Layout Interchange Format
 
-## LIF - Layout Interchange Format
+## Definition of a format of track layouts for exchange between the integrator of the driverless transport vehicles and a (third-party) master control system.
+
 
 ## Version 0.11.0 - September 2023
 
@@ -14,19 +15,14 @@ This document represents a non-binding approach. Whoever uses it must ensure the
 
 Should you encounter any inaccuracies or the possibility of incorrect interpretation in the application of the proposals, please notify VDMA immediately so that any deficiencies can be rectified.
 
-Publisher Verband Deutscher Maschinen- und Anlagenbau e. V. (VDMA)
-
-Lyoner Strasse 18, 60528 Frankfurt am Main
-
-Copyright Verband Deutscher Maschinen- und Anlagenbau e. V. (VDMA)
-
-Reprinting and any other form of reproduction is
-
-permitted only if the source is acknowledged.
-
-Status September 2023
-
-Version 0.11.0
+| | |
+|---|---|
+Publisher | Verband Deutscher Maschinen- und Anlagenbau e. V. (VDMA)| 
+|  | Lyoner Strasse 18, 60528 Frankfurt am Main| 
+| Copyright | Verband Deutscher Maschinen- und Anlagenbau e. V. (VDMA)| 
+|  | Reprinting and any other form of reproduction is permitted only if the source is acknowledged.| 
+| Status | September 2023| 
+| Version | 0.11.0|
 
 ## Contents
 
