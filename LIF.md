@@ -5,7 +5,7 @@
 ## Definition of a format of track layouts for exchange between the integrator of the driverless transport vehicles and a (third-party) master control system.
 
 
-## Version 0.11.0 - September 2023
+## Version 1.0.0 - September 2023
 
 # Abstract
 
