@@ -333,7 +333,7 @@ The objects contained in this structure are described in more detail below.
 
 The mobile robot fact sheet may define actions that can be taken nearly anywhere, such as triggering a series of beeps or activating a light on the vehicle. These types of general actions may or may not be defined on (most or all) nodes and edges in the LIF. Such actions must be discussed between the vehicle integrator and the (third-party) master control system.
 
-### 8.3.8 ActionParameter
+### 8.3.9 ActionParameter
 
 | Object structure | Unit | Data type | Description |
 | --- | --- | --- | --- |
@@ -342,7 +342,7 @@ The mobile robot fact sheet may define actions that can be taken nearly anywhere
 | value |  | One of: array, boolean, number, string, object | The value of the parameter that belongs to the key.  Note: The data type is defined in the mobile robot VDA5050 factsheet. |
 | } |  |  |  |
 
-### 8.3.9 Edge
+### 8.3.10 Edge
 
 | Object structure | Unit | Data type | Description |
 | --- | --- | --- | --- |
@@ -355,7 +355,7 @@ The mobile robot fact sheet may define actions that can be taken nearly anywhere
 | vehicleTypeEdgeProperties [vehicleTypeEdgeProperty] |  | array of JSON-object | Vehicle type specific properties for this edge.  Note: This attribute must not be empty. For each allowed vehicle type there must be an element. |
 | } |  |  |  |
 
-### 8.3.10 VehicleTypeEdgeProperty
+### 8.3.11 VehicleTypeEdgeProperty
 
 | Object Structure | Unit | Data type | Description |
 | --- | --- | --- | --- |
@@ -377,11 +377,11 @@ The mobile robot fact sheet may define actions that can be taken nearly anywhere
 | *reentryAllowed* |  | boolean | "true": Vehicles of a type listed in vehicleTypeIds are allowed to enter automatic management by the third-party master control system while on this edge.  "false": Vehicles of a type listed in vehicleTypeIds are not allowed to enter into automatic management by the (third-party) master control system while on this edge.  Note: If not defined, the default is true. |
 | } |  |  |  |
 
-#### 8.3.9.1 Rotation Allowed at Start and End
+#### 8.3.11.1 Rotation Allowed at Start and End
 
 Two attributes, rotationAtEndNodeAllowed and rotationAtStartNodeAllowed, may contradict one another if they terminate and originate, respectively, at the same node. In such cases, these should be combined as per a boolean *and*. As an example, if the end node rotation is BOTH on the terminating edge, but NONE on the originating edge, this would be interpreted as NONE. For directional rotation values of CW or CCW, they must also align exactly, or value of CW or CCW on the terminating edge but BOTH on the originating edge would also only allow CW or CCW rotation, respectively. If these two attributes do not align at such a node, some edges of the layout may be unnavigable depending upon how the vehicle arrived at the node (which may or may not be intentional).
 
-### 8.3.11 Trajectory
+### 8.3.12 Trajectory
 
 | Object structure | Unit | Data type | Description |
 | --- | --- | --- | --- |
